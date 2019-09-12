@@ -1,0 +1,149 @@
+
+.container {
+    padding: 0 $primary-size;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    padding: 1em $primary-size;
+}
+
+[class^=col] {
+    margin-top: $primary-size;
+    flex-basis: 100%;
+    min-height: 25px;
+    padding: $primary-size;
+    border-radius: $third-size;
+}
+
+.theme.col-1 {
+    background-color: $lilac-bush;
+}
+
+.theme.col-2 {
+    background-color: $coral;
+}
+
+.theme.col-3 {
+    background-color: $wisteria;
+}
+
+.theme.col-4 {
+    background-color: $electric-blue;
+}
+
+.theme.col-5 {
+    background-color: $eastern-blue;
+}
+
+.theme.col-6 {
+    background-color: $boston-blue;
+}
+
+.theme.col-7 {
+    background-color: $wax-flower;
+}
+
+.theme.col-8 {
+    background-color: $mona-lisa;
+}
+
+.theme.col-9 {
+    background-color: $froly;
+}
+
+.theme.col-10 {
+    background-color: $emerald;
+}
+
+.theme.col-11 {
+    background-color: $maya-blue;
+}
+
+.theme.col-12 {
+    background-color: $turquoise-blue;
+}
+
+.card {
+    flex-basis: 100%;
+}
+
+@include media-query($tablet-desktop-view){
+    .container {
+        max-width: 1400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    [class^=col] {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        align-items: center;
+      }
+    
+    [class^=col] + [class^=col] {
+        margin-left: $primary-size;
+    }
+
+    .col-1 {
+        flex-basis: 8.33%;
+      }
+    
+    .col-2 {
+        flex-basis: 16.67%;
+    }
+
+    .col-3 {
+        flex-basis: 25.00%;
+    }
+
+    .col-4 {
+        flex-basis: 33.33%;
+    }
+
+    .col-5 {
+        flex-basis: 41.67%;
+    }
+
+    .col-6 {
+        flex-basis: 50.00%;
+    }
+
+    .col-7 {
+        flex-basis: 58.33%;
+    }
+
+    .col-8 {
+        flex-basis: 66.67%;
+    }
+
+    .col-9 {
+        flex-basis: 75.00%
+    }
+
+    .col-10 {
+        flex-basis: 83.33%;
+    }
+
+    .col-11 {
+        flex-basis: 91.67%;
+    }
+
+    .col-12 {
+        flex-basis: 100%;
+    }
+    
+}

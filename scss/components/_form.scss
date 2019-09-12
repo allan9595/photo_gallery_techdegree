@@ -1,0 +1,21 @@
+.form {
+  flex-basis: 100%;
+}
+
+.input{
+  display: block;
+  width: 94%;
+  margin: $primary-size auto 0;
+  border: none;
+  padding: $primary-size;
+  border-bottom: $third-size solid $turquoise;
+}
+
+.hidden {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:$one-px-size;
+  height:$one-px-size;
+  overflow:hidden;
+}
