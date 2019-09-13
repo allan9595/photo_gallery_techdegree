@@ -3,49 +3,82 @@
     <head>
         <title>Photo Gallery</title>
         <link href="https://fonts.googleapis.com/css?family=Merriweather::400,700,800&display=swap" rel="stylesheet">
+        <link  href="js/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
     </head>
     <body>
-        <div class="search-input">
-            <input type="search" id="search" name="search" placeholder="Seaerch...">
+        <div class="row">
+            <div class="col-12 search">
+                <input type="search" id="search" name="search" placeholder="Search...">
+            </div>
         </div>
-        <div class="col-4">
-            <img src="photos/thumbnails/01.jpg" alt="grass">
+        <div class="row">
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/01.jpg">
+                    <img src="photos/thumbnails/01.jpg" alt="grass">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/02.jpg">
+                    <img src="photos/thumbnails/02.jpg" alt="lake">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/03.jpg">
+                    <img src="photos/thumbnails/03.jpg" alt="grass">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/04.jpg">
+                    <img src="photos/thumbnails/04.jpg" alt="ice">
+                </a>
+            </div>
         </div>
-        <div class="col-4">
-            <img src="photos/thumbnails/02.jpg" alt="lake">
+        <div class="row">
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/05.jpg">
+                    <img src="photos/thumbnails/05.jpg" alt="rock">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/06.jpg">
+                    <img src="photos/thumbnails/06.jpg" alt="tree">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/07.jpg">
+                    <img src="photos/thumbnails/07.jpg" alt="tree">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/08.jpg">
+                    <img src="photos/thumbnails/08.jpg" alt="sand">
+                </a>
+            </div>
         </div>
-        <div class="col-4">
-            <img src="photos/thumbnails/03.jpg" alt="grass">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/04.jpg" alt="ice">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/05.jpg" alt="rock">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/06.jpg" alt="tree">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/07.jpg" alt="green grass">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/08.jpg" alt="sand">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/09.jpg" alt="lake">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/10.jpg" alt="road">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/11.jpg" alt="mountain">
-        </div>
-        <div class="search-input col-4">
-            <img src="photos/thumbnails/12.jpg" alt="grass">
+        <div class="row">
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/09.jpg">
+                    <img src="photos/thumbnails/09.jpg" alt="road">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/10.jpg">
+                    <img src="photos/thumbnails/10.jpg" alt="mountain">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/11.jpg">
+                    <img src="photos/thumbnails/11.jpg" alt="mountain">
+                </a>
+            </div>
+            <div class="col-3 img-avatar">
+                <a data-fancybox="gallery" href="photos/12.jpg">
+                    <img src="photos/thumbnails/12.jpg" alt="mountain">
+                </a>
+            </div>
         </div>
     </body>
     <script 
@@ -53,4 +86,5 @@
         crossorigin="anonymous"
     >
     </script>
+    <script src="js/fancybox/dist/jquery.fancybox.min.js"></script>
 </html>
