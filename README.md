@@ -30,7 +30,7 @@ Go to the folder then open the index.html file in browser.
 
     The MIT License
 
-    Copyright (c) 2010-2019 Google, Inc. http://angularjs.org
+    Copyright (c) BOHAN ZHANG
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
