@@ -453,7 +453,7 @@ a {
 
 .input {
   display: block;
-  width: 50%;
+  width: 90%;
   margin: 10px auto 0;
   border: 1px solid #777;
   border-radius: 5px;
@@ -467,6 +467,14 @@ a {
   height: 1px;
   overflow: hidden; }
 
+@media (min-width: 768px) {
+  .input {
+    display: block;
+    width: 50%;
+    margin: 10px auto 0;
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 10px; } }
 .img-avatar {
   margin-left: auto;
   margin-right: auto;

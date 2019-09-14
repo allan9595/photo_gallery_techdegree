@@ -4,7 +4,7 @@
 
 .input{
   display: block;
-  width: 50%;
+  width: 90%;
   margin: $primary-size auto 0;
   border: $one-px-size solid $grey;
   border-radius: 5px;
@@ -20,3 +20,14 @@
   overflow:hidden;
 }
 
+
+@include media-query($tablet-desktop-view){
+    .input {
+        display: block;
+        width: 50%;
+        margin: $primary-size auto 0;
+        border: $one-px-size solid $grey;
+        border-radius: 5px;
+        padding: $primary-size;
+    }
+}
