@@ -453,11 +453,11 @@ a {
 
 .input {
   display: block;
-  width: 94%;
+  width: 50%;
   margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1; }
+  border: 1px solid #777;
+  border-radius: 5px;
+  padding: 10px; }
 
 .hidden {
   position: absolute;
@@ -468,7 +468,6 @@ a {
   overflow: hidden; }
 
 .img-avatar {
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;

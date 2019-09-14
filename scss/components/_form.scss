@@ -4,11 +4,11 @@
 
 .input{
   display: block;
-  width: 94%;
+  width: 50%;
   margin: $primary-size auto 0;
-  border: none;
+  border: $one-px-size solid $grey;
+  border-radius: 5px;
   padding: $primary-size;
-  border-bottom: $third-size solid $turquoise;
 }
 
 .hidden {
@@ -19,3 +19,4 @@
   height:$one-px-size;
   overflow:hidden;
 }
+
